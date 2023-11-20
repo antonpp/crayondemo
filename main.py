@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     country = request.args.get("country")
     if country:
-        return f"Welcome to {country}!"
+        return f"Welcome to {country}!!!!"
     else:
         return "Please provide a country as input."
 
